@@ -23,7 +23,7 @@ const App = () => {
     try {
       const json = JSON.parse(jsonInput);
 
-      const res = await axios.post('https://back-nine-theta.vercel.app/', json);
+      const res = await axios.post('https://back-nine-theta.vercel.app/bfhl', json);
 
       setResponse(res.data);
     } catch (err) {
